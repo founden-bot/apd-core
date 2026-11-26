@@ -1,0 +1,39 @@
+---
+title: US Online TRT Clinic Prices
+homepage: https://trtcompare.co/data
+category: Healthcare
+description: Cash prices of US online testosterone replacement therapy (TRT) clinics, one row per clinic and product (testosterone injections, cream and oral capsules, enclomiphene, clomiphene, hCG, anastrozole), each in the clinic's own words with the page it was read on and the day, plus what a first year costs at each clinic once its required membership, lab panels and fees are added, with its Trustpilot, BBB and FDA warning-letter record. Advertised prices, not quotes; values a clinic does not publish stay empty and are never estimated.
+version: '2026.11.25'
+keywords: testosterone replacement therapy, TRT, telehealth, drug prices, health care prices, online clinics, enclomiphene, open data, CSV
+image:
+temporal: '2026-11-25'
+spatial: United States
+access_level: public
+copyrights: TRTcompare.co
+accrual_periodicity: monthly
+specification: https://trtcompare.co/methodology
+data_quality: true
+data_dictionary: https://trtcompare.co/data#columns
+language: en
+license: CC BY 4.0
+publisher:
+  - name: TRTcompare.co
+    web: https://trtcompare.co
+organization:
+  - name: TRTcompare.co
+    web: https://trtcompare.co
+issued_time: '2026-11-25'
+sources:
+  - name: trt-clinic-prices.csv (every clinic price)
+    access_url: https://trtcompare.co/data/trt-clinic-prices.csv
+  - name: trt-first-year-cost.csv (first-year cost per clinic)
+    access_url: https://trtcompare.co/data/trt-first-year-cost.csv
+  - name: trt-clinic-prices.json (both tables with the column dictionary)
+    access_url: https://trtcompare.co/data/trt-clinic-prices.json
+  - name: Zenodo snapshot (DOI 10.5281/zenodo.24547739)
+    access_url: https://doi.org/10.5281/zenodo.24547739
+references:
+  - title: Canonical dataset page
+    reference: https://trtcompare.co/data
+  - title: GitHub copy
+    reference: https://github.com/founden-bot/trt-clinic-prices
